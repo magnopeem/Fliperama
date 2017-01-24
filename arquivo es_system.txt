@@ -1,0 +1,66 @@
+<systemList>
+
+<system>
+<fullname>Atari 2600</fullname>
+<name>atari2600</name>
+<path>/var/www/games/atari2600/roms</path>
+<extension>.a26 .A26 .bin .BIN .rom .ROM .zip .ZIP .gz .GZ</extension>
+<command>retroarch -L /usr/lib/libretro/stella_libretro.so  %ROM%</command>
+<platform>atari2600</platform>
+<theme>atari2600</theme>
+</system>
+
+
+<system>
+<fullname>Arcade</fullname>
+<name>arcade</name>
+<path>/var/www/games/arcade/roms</path>
+<extension>.zip .ZIP .fba .FBA</extension>
+<command>retroarch -L /usr/lib/libretro/fb_alpha_libretro.so %ROM%</command>
+<platform>arcade</platform>
+<theme>arcade</theme>
+</system>
+
+<system>
+<fullname>Game Boy</fullname>
+<name>gb</name>
+<path>/var/www/games/gameboy/roms</path>
+<extension>.gb .GB</extension>
+<command>retroarch -L /usr/lib/libretro/gambatte_libretro.so %ROM%"</command>
+<platform>gb</platform>
+<theme>gb</theme>
+</system>
+
+<system>
+<fullname>Game Boy Color</fullname>
+<name>gbc</name>
+<path>/var/www/games/gameboycolor/roms</path>
+<extension>.gbc .GBC</extension>
+<command>retroarch -L /usr/lib/libretro/gambatte_libretro.so %ROM%</command>
+<platform>gbc</platform>
+<theme>gbc</theme>
+</system>
+
+<system>
+<fullname>MAME</fullname>
+<name>mame</name>
+<path>/var/www/games/mame/roms</path>
+<extension>.zip .ZIP</extension>
+<command>retroarch -L /usr/lib/libretro/libretro.so %ROM%"</command>
+<platform>arcade</platform>
+<theme>mame</theme>
+</system>
+
+<system>
+<fullname>Nintendo Entertainment System</fullname>
+<name>nes</name>
+<path>/var/www/games/nes/roms</path>
+<extension>.nes .NES</extension>
+<command>retroarch -L /usr/lib/libretro/fceumm_libretro.so %ROM%</command>
+<platform>nes</platform>
+<theme>nes</theme>
+</system>
+
+
+
+</systemList>
